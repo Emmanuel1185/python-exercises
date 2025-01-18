@@ -33,8 +33,19 @@
 # print(mul(2,3)) # 6
 # print(div(2,3)) # 0.66666666
 
-name="Mayowa"
-def my_function():
-    print("Hello", name)
+# name="Mayowa"
+# def my_function():
+#     print("Hello", name)
 
-my_function()
+# my_function()
+
+# numbers = [8,2,3,0,7,1]
+# def my_sum (numbers):
+#     total = 0
+#     for num in numbers:
+#         total += num
+#     return total
+# result= my_sum(numbers)
+# print("The sum is:", result)
+
+
