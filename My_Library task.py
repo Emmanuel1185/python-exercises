@@ -8,9 +8,9 @@
 # is_available: Boolean indicating if the book is available (default: True)
 
 class Book():
-    def __init__(self,Title):
+    def __init__(self,Title, Author):
         self.Title = Title
-        self.Author = None
+        self.Author = Author
         self.is_available = True
 
     def borrow(self): # If is_available is True, mark the book as borrowed and return a success message. Otherwise, return a message saying the book is already borrowed.
@@ -122,8 +122,5 @@ while True:  # Create a loop to display the menu options
 # Borrowing a book that is not available.
 # Returning a book that was not borrowed.
 # Searching for a book that doesn't exist.
-
-
-
 
 
