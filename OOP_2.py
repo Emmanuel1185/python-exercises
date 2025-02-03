@@ -41,35 +41,35 @@
 
 #polymorphism
 
-# Agenda
-# 1. 4 Building blocks of OOP 
-# Inheritance in Python - R&D - single level - multi level - multiple inheritance 
-# Polymorphism in Python
-# class Animal:
-#         def speak(self):
-#             print("Animal makes a sound")
+#Agenda
+#1. 4 Building blocks of OOP 
+#Inheritance in Python - R&D - single level - multi level - multiple inheritance 
+#Polymorphism in Python
+class Animal:
+        def speak(self):
+            print("Animal makes a sound")
 
-# class Dog(Animal):
-#     def speak(self):
-#         print("Dog barks")
+class Dog(Animal):
+    def speak(self):
+        print("Dog barks")
 
-# class Cat(Animal):
-#     def speak(self):
-#         print("Cat meows")
-# class Cow(Animal):
-#     def speak(self):
-#         print("Cow moos")
-# # Let's call those
-# dog = Dog()
-# cat = Cat()
-# cow = Cow()
+class Cat(Animal):
+    def speak(self):
+        print("Cat meows")
+class Cow(Animal):
+    def speak(self):
+        print("Cow moos")
+# Let's call those
+dog = Dog()
+cat = Cat()
+cow = Cow()
 
 
-# def animal_speak(animal):
-#     animal.speak()
-# animal_speak(dog) # len("dasda") string
-# animal_speak(cat)  # len(123) integer 
-# animal_speak(cow)  #len([1,2,3,4,5]) list length
-# withdraw method and apply polymorphism for current account and saving account
+def animal_speak(animal):
+    animal.speak()
+animal_speak(dog) # len("dasda") string
+animal_speak(cat)  # len(123) integer 
+animal_speak(cow)  #len([1,2,3,4,5]) list length
+#withdraw method and apply polymorphism for current account and saving account
 
 
